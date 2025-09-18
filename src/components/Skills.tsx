@@ -28,8 +28,6 @@ const Skills = () => {
         { name: "MongoDB", level: 75 },
         { name: "Git", level: 90 },
         { name: "GitHub", level: 90 },
-        { name: "Docker", level: 70 },
-        { name: "AWS", level: 60 },
       ]
     }
   ];
@@ -37,7 +35,7 @@ const Skills = () => {
   const technologies = [
     "React", "TypeScript", "Python", "PostgreSQL", "MongoDB", 
     "Git", "GitHub", "Node.js", "Express.js", "Tailwind CSS",
-    "REST APIs", "GraphQL", "Docker", "AWS"
+    "REST APIs", "GraphQL"
   ];
 
   return (
