@@ -5,16 +5,17 @@ const Education = () => {
     {
       institution: "Federal University of Technology, Akure (FUTA)",
       degree: "Bachelor of Technology - Information Technology",
-      period: "2024 Graduate",
+      period: "2025 Graduate",
       type: "University Degree",
       icon: GraduationCap,
       highlights: [
         "Software Engineering Fundamentals",
         "Database Management Systems", 
         "Data Structures & Algorithms",
-        "Computer Networks & Security"
+        "Computer Networks & Security",
+        "AI & Machine Learning"
       ],
-      achievement: "First Class/Distinction" // Update with your actual grade
+      achievement: "Secong Class Upper"
     },
     {
       institution: "Microverse",

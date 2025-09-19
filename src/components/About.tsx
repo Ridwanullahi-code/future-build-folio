@@ -1,7 +1,7 @@
 const About = () => {
   const stats = [
-    { number: "2024", label: "FUTA Graduate" },
-    { number: "100+", label: "Hours Coding" },
+    { number: "2025", label: "FUTA Graduate" },
+    { number: "350+", label: "Hours Coding" },
     { number: "10+", label: "Projects Built" },
     { number: "95%", label: "Client Satisfaction" },
   ];

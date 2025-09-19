@@ -9,14 +9,14 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "your.email@example.com",
-      href: "mailto:your.email@example.com"
+      value: "ridwanullahiajayi01@gmail.com",
+      href: "mailto:ridwanullahiajayi01@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+234 (0) 123 456 7890",
-      href: "tel:+2341234567890"
+      value: "+234 814 458 0946",
+      href: "tel:+2348144580946"
     },
     {
       icon: MapPin,

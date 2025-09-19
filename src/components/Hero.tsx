@@ -1,13 +1,22 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Download } from "lucide-react";
-import developerPortrait from "@/assets/developer-portrait.jpg";
+import developerPortrait from "@/assets/image.jpg";
 
 const Hero = () => {
   const socialLinks = [
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Mail, href: "#contact", label: "Email" },
+    { icon: Github, href: "https://github.com/Ridwanullahi-code", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/ajayi-ridwan/", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:ridwanullahiajayi01@gmail.com", label: "Email" },
   ];
+
+  const downloadResume = () => {
+    const link = document.createElement('a');
+    link.href = '/JAYI_RIDWAN_RESUME.pdf';
+    link.download = 'AJAYI_RIDWAN_RESUME.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <section
@@ -35,7 +44,7 @@ const Hero = () => {
               <Button variant="hero" size="lg">
                 View Projects
               </Button>
-              <Button variant="outline" size="lg">
+              <Button variant="outline" size="lg" onClick={downloadResume}>
                 <Download className="mr-2 h-4 w-4" />
                 Download CV
               </Button>
