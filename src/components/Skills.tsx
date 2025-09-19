@@ -63,7 +63,7 @@ const Skills = () => {
           ))}
         </div>
 
-        {/* Skill Categories */}
+      
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skillCategories.map((category, index) => (
             <div 
